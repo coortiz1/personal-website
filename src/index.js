@@ -1,11 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import ReactDOM from "react-dom";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Skills from "./pages/Skills";
+import Work from "./pages/Work";
+import Contact from "./pages/Contact";
+import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path = "/" element = {<Layout />}>
+          <Route index element = {<Home />}/>
+          <Route path = "skills" element = {<Skills />}/>
+          <Route path = "work" element = {<Work />}/>
+          <Route path = "skills" element = {<Skills />}/>
+          <Route path = "contact-info" element = {<Contact />}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+ReactDOM.render(<App />,document.getElementById("root"));
+

@@ -12,7 +12,7 @@ function Navbar() {
                     <Link to = "/skills">Skills</Link>
                 </li>
                 <li>
-                    <Link to = "/work">Work Experience</Link>
+                    <Link to = "/experience">Experience</Link>
                 </li>
                 <li>
                     <Link to = "/contact-info">Contact Info</Link>

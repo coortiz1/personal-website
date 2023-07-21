@@ -1,4 +1,4 @@
-function Contact(){
+function CSContact(){
     return (
         <>
             <h1>Reach out to me!</h1>
@@ -12,4 +12,4 @@ function Contact(){
 
     );
 }
-export default Contact;
+export default CSContact;

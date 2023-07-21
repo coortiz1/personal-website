@@ -3,9 +3,9 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import Skills from "./pages/Skills";
-import Work from "./pages/Work";
-import Contact from "./pages/Contact";
+import CSSkills from "./pages/CSSkills";
+import CSWork from "./pages/CSWork";
+import CSContact from "./pages/CSContact";
 import "./index.css";
 
 export default function App() {
@@ -14,10 +14,12 @@ export default function App() {
       <Routes>
         <Route path = "/" element = {<Layout />}>
           <Route index element = {<Home />}/>
-          <Route path = "skills" element = {<Skills />}/>
-          <Route path = "experience" element = {<Work />}/>
-          <Route path = "skills" element = {<Skills />}/>
-          <Route path = "contact-info" element = {<Contact />}/>
+          <Route path = "cs-skills" element = {<CSSkills />}/>
+          <Route path = "teaching-skills" element = {<CSSkills />}/>
+          <Route path = "cs-experience" element = {<CSWork />}/>
+          <Route path = "teaching-experience" element = {<CSWork />}/>
+          <Route path = "cs-contact-info" element = {<CSContact />}/>
+          <Route path = "teaching-contact-info" element = {<CSContact />}/>
         </Route>
       </Routes>
     </BrowserRouter>

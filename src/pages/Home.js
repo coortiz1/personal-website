@@ -13,6 +13,7 @@ function Home() {
             with web development technologies such as React.js, Firebase, HTML, and CSS. I am currently 
             looking for internship opportunities. Aside from looking for internships, I am also a private tutor. 
             </p>
+            <img src = "/pic.jpg"/>
             <h1>Education</h1>
             <h1>UCLA</h1>
             <h3>B.S. in Computer Science </h3>

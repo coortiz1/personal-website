@@ -8,7 +8,16 @@ function CSWork() {
             <h5>GPA: 3.917</h5>
             <h3>Projects</h3>
             <ol>
-                <li>Personal Fitness Web App</li>
+                <li>
+                    <p>Personal Fitness Web App</p>
+                    <p>ADAPT (Aiding Dietician and Personal Trainer)</p>
+                </li>
+                <ul>
+                    <li>personal health web app that allows users to select customized workout plans and food recipes</li>
+                    <li>group project built with React.js, CSS, HTML, and Firebase</li>
+                    <li>allows users to make an account and upload their personal information to the server</li>
+                    <li>search through database of workouts and recipes and sorts them based on user preference and personal information</li>
+                </ul>
                 <li>Battleship Project</li>
                 <ul>
                     <li>Focuses on the usage of various data structures (linked lists, 2d arrays, stacks, classes, etc.) with the implementation of several programming techniques (recursion, etc.) to create a fully functional battleship game</li>

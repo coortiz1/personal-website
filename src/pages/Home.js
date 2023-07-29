@@ -1,4 +1,5 @@
 function Home() {
+
     return (
         <>
             <h1>Hi, I'm Curtis!</h1>
@@ -19,8 +20,8 @@ function Home() {
             <h3>B.S. in Computer Science </h3>
             <h5>September 2021 - June 2025</h5>
             <h5>GPA: 3.917</h5>
-            <button>Click here for my CS skills and experience!</button>
-            <button>Click here for my tutoring info!</button>
+            
+          
         </>
     );
 }

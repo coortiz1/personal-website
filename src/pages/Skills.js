@@ -1,6 +1,6 @@
 import React from "react";
 import {UserContext} from "../Navbar";
-function CSSkills() {
+function Skills() {
     const value = React.useContext(UserContext);
     if (value){
     return (
@@ -47,4 +47,4 @@ function CSSkills() {
         return (<p>This is teaching skills</p>);
     }
 }
-export default CSSkills;
+export default Skills;

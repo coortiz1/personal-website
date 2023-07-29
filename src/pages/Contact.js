@@ -1,6 +1,6 @@
 import React from "react";
 import {UserContext} from "../Navbar";
-function CSContact(){
+function Contact(){
     const value = React.useContext(UserContext);
     if (value){
         return (
@@ -20,4 +20,4 @@ function CSContact(){
         return(<p>This is teaching contacts</p>);
     }
 }
-export default CSContact;
+export default Contact;

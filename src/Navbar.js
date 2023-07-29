@@ -10,13 +10,13 @@ function Navbar() {
                     <Link to = "/">Home</Link>
                 </li>
                 <li>
-                    <Link to = "/cs-skills">Skills</Link>
+                    <Link to = "/skills">Skills</Link>
                 </li>
                 <li>
-                    <Link to = "/cs-experience">Experience</Link>
+                    <Link to = "/experience">Experience</Link>
                 </li>
                 <li>
-                    <Link to = "/cs-contact-info">Contact Info</Link>
+                    <Link to = "/contact-info">Contact Info</Link>
                 </li>
             </ul>
         </nav>        

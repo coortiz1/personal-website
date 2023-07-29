@@ -1,7 +1,7 @@
 import React from "react";
 import {UserContext} from "../Navbar";
 
-function CSWork() {
+function Work() {
     const value = React.useContext(UserContext);
     if (value){
         return (
@@ -77,4 +77,4 @@ function CSWork() {
         return<p>This is teaching work</p>;
     }
 }
-export default CSWork;
+export default Work;

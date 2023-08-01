@@ -2,8 +2,8 @@ import React from "react";
 import {UserContext} from "../Navbar";
 function Contact(){
     const value = React.useContext(UserContext);
-    if (value){
-        return (
+    function BasicInfo(){
+        return(
             <>
                 <h1>Reach out to me!</h1>
                 <h3>UCLA 25' Computer Science Major</h3>
@@ -14,7 +14,11 @@ function Contact(){
                 </ul>
                 <a href = "https://www.linkedin.com/in/curtis-chen1/">Linkedin</a>
             </>
-
+        );
+    }
+    if (value){
+        return (
+            <BasicInfo />
         );
     }
     else{

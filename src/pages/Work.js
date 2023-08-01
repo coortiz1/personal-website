@@ -3,14 +3,23 @@ import {UserContext} from "../Navbar";
 
 function Work() {
     const value = React.useContext(UserContext);
-    if (value){
-        return (
+    function BasicInfo(){
+        return(
             <>
                 <h1>Education</h1>
                 <h1>UCLA</h1>
                 <h3>B.S. in Computer Science </h3>
                 <h5>September 2021 - June 2025</h5>
                 <h5>GPA: 3.917</h5>
+            </>
+        );
+
+    }
+    if (value){
+        return (
+            <>
+                <BasicInfo />
+
                 <h3>Projects</h3>
                 <ol>
                     <li>
@@ -74,7 +83,40 @@ function Work() {
         )
     }
     else{
-        return<p>This is teaching work</p>;
+        return(
+            <>
+                <BasicInfo/>
+                <h3>Teaching Experience</h3>
+                <ol>
+                    <li>
+                        <h4>Escalante Math Program - Teacher Assistant</h4>
+                        <h5>July 2015 - September 2015</h5>
+                        <ul>
+                            <li>Coached 3 struggling students in precalculus and raised their test scores from C minus to A minus</li>
+                            <li>Instructed precalculus classes (average 22 students per class) as substitute for teacher</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>UCLA Upsilon Pi Epsilon - Tutor</h4>
+                        <h5>September 2022 - June 2022</h5>
+                        <ul>
+                            <li>Coach UCLA students in data structures and algorithms, differential equations, and physics</li>
+                            <li>Helped students go through their homework in various subjects</li>
+                            <li>Helped students go through their past graded homework and tests and explain their mistakes</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Gabrielino Tutoring Association - Advisor</h4>
+                        <h5>September 2020 - June 2021</h5>
+                        <ul>
+                            <li>Coached students one on one and raised two student's test scores from C minus to B</li>
+                            <li>Gave younger students advice on what classes to choose for future and personalize teaching plans based on their interests</li>
+                        </ul>
+                    </li>
+                </ol>
+            </>
+
+        );
     }
 }
 export default Work;

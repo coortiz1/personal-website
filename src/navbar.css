@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: #0B355F;
+    background-color: #009bcb;
     padding: 10px;
 }
   
@@ -15,20 +15,20 @@
   
 .navbar li {
     padding: 5px 10px;
-    background-color: #C5DBF1;
+    background-color: #009bcb;
 }
   
 .navbar li a {
     text-decoration: none;
-    color:black;
+    color:#e8faff;
     font-family: "Georgia", sans-serif;
-    font-size:50px;
+    font-size:30px;
   
 }
   
 .navbar li a:hover {
-    color: #fff;
+    color: #009bcb;
     font-weight: bold;
-    background-color: #0B355F;
+    background-color: #e8faff;
 }
   

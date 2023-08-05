@@ -12,7 +12,6 @@ const Layout = () => {
   return (
     <UserContext.Provider value = {contextValue}>
       <Navbar/>
-      <br></br>
       <Outlet />
       <button onClick={toggleContextValue}>Toggle Context Value</button>
     </UserContext.Provider>

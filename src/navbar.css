@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #009bcb;
+    padding: 10px;
+}
+  
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+  
+.navbar li {
+    padding: 5px 10px;
+    background-color: #009bcb;
+}
+  
+.navbar li a {
+    text-decoration: none;
+    color:#e8faff;
+    font-family: "Georgia", sans-serif;
+    font-size:30px;
+  
+}
+  
+.navbar li a:hover {
+    color: #009bcb;
+    font-weight: bold;
+    background-color: #e8faff;
+}
+  

@@ -3,6 +3,10 @@
     justify-content: center;
     background-color: #009bcb;
     padding: 10px;
+    position:sticky;
+    top:0;
+    z-index: 100;
+
 }
   
 .navbar ul {

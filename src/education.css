@@ -1,8 +1,4 @@
-.homeBackground {
-  background-color:#b9efff;
-
-}
-.homeBox {
+.educationBox {
     background-color:#e8faff;
     width: 1000px;
     border: 1px solid #141d61;
@@ -14,11 +10,11 @@
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px #A7F3D0;
   }
 
-.homeBox:hover{
+.educationBox:hover{
   box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #028950;
 }
 
-  .innerHomeBox {
+.innerEducationBox {
     min-height: 100px;
     overflow: hidden;
     border: 1px solid #141d61;
@@ -31,7 +27,7 @@
 
   }
 
-.homeImage {
+.educationImage {
   width: 300px; /* width of container */
   height: 300px; /* height of container */
   object-fit: cover;
@@ -42,33 +38,31 @@
   filter: brightness(140%);
   filter: contrast(140%);
 }
-
-.homeBox h1 {
+.educationBox h1 {
   font-size:50px;
   font-family:'Times New Roman', Times, serif;
   color:#009bcb;
 }
 
-.homeBox h2 {
+.educationBox h2 {
   font-size:40px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:#00769b;
 
 }
 
-.homeBox h3 {
+.educationBox h3 {
   font-size:30px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:#009bcb;
 }
-
-.innerHomeBox h4 {
+.innerEducationBox h4 {
   font-size:25px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:#0db7eb;
 }
 
-.innerHomeBox p {
+.innerEducationBox p {
   font-size:25px;
   font-family:Garamond,serif;
   color:#00769b;

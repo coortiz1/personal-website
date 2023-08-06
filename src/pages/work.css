@@ -1,0 +1,17 @@
+.workBackground{
+    background-color:#b9efff;
+}
+.workBox{
+    background-color:#e8faff;
+    width: 1000px;
+    border: 1px solid #141d61;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    height:auto;
+    margin: auto;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.workBox:hover{
+    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #00526c;
+}

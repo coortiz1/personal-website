@@ -1,5 +1,6 @@
 import React from "react";
 import {UserContext} from "../Navbar";
+import "./contact.css";
 function Contact(){
     const value = React.useContext(UserContext);
     function BasicInfo(){
@@ -17,21 +18,74 @@ function Contact(){
     }
     if (value){
         return (
-            <>
-                <h1>Reach out to me for project ideas or if you just want to chat!</h1>
-                <BasicInfo />
+            <div className = "contactBackground">
                 <br></br>
-            </>
+                <div className = "contactBox">
+                    <h1>Reach out to me for project ideas or if you just want to chat!</h1>
+                    <BasicInfo />
+                    <br></br>
+                </div>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
+            </div>
         );
     }
     else{
         return(
-            <>
-                <h1>Reach out to me for private tutoring!</h1>
-                
-                <BasicInfo />
+            <div className = "contactBackground">
                 <br></br>
-            </>
+                <div className = "contactBox">
+                    <h1>Reach out to me for private tutoring!</h1>                
+                    <BasicInfo />
+                </div>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+            </div>
         );
     }
 }

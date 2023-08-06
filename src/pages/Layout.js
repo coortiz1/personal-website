@@ -9,6 +9,7 @@ const Layout = () => {
   const toggleContextValue = () => {
     setContextValue((prevValue)=>!prevValue);
   }
+  
   return (
     <UserContext.Provider value = {contextValue}>
       <Navbar/>

@@ -1,0 +1,128 @@
+.skillBackground{
+    background-color:#b9efff;
+}
+
+.skillImage1{
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 1px solid solid black;
+    margin-right:50px;
+    box-shadow: -10px -8px 0px #818CF8;
+}
+.skillImage2{
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 1px solid solid black;
+    margin-right:50px;
+    box-shadow: -10px -8px 0px #818CF8;
+}
+.skillBox{
+    background-color:#e8faff;
+    width: 1000px;
+    border: 1px solid #141d61;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    height:auto;
+    margin: auto;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.skillBox:hover{
+    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #00526c;
+}
+.skillImageBox{
+    min-height: 100px;
+    overflow: hidden;
+    height:auto;
+    margin:auto;
+    float:left;
+    padding:10px;
+}
+
+.skillBox h1 {
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif;
+    color:#009bcb;
+  }
+
+.innerSkillBox {
+    min-height: 100px;
+    overflow: hidden;
+    border: 1px solid #141d61;
+    padding-left: 50px;
+    padding-right:50px;
+    height:auto;
+    margin:auto;
+    box-shadow: 3px 3px 6px 0px #CCDBE8 inset, -3px -3px 6px 1px rgba(255,255,255,0.5) inset;
+    background-color:white;
+
+  }
+
+.innerSkillBox h3{
+    font-size:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#009bcb;
+}
+
+.innerSkillBox ol {
+    counter-reset: li; 
+    list-style: none; 
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  }
+  
+.innerSkillBox ol li strong{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #e8faff;
+    color: #00526c;
+    text-decoration: none;
+    transition: all .3s ease-out;
+  }
+  
+.innerSkillBox ol li strong:hover {background: #009bcb;color:#e8faff;}       
+.innerSkillBox ol li strong:before {
+    content: counter(li);
+    counter-increment: li;
+    color:#00526c;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #b9efff;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+.innerSkillBox ol li strong:after {
+    position: absolute;
+    content: "";
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+  }
+  
+.innerSkillBox ol li strong:hover:after {
+    left: -.5em;
+    border-left-color: #009bcb;
+  }
+
+.innerSkillBox p{
+    font-size:25px;
+    font-family:Garamond,serif;
+    color:#00769b;
+}
+
+.innerSkillBox strong{
+    font-size:25px;
+    font-family:Garamond,serif;
+}

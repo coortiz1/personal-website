@@ -8,7 +8,7 @@
     object-fit: cover;
     border: 1px solid solid black;
     margin-right:50px;
-    box-shadow: -10px -8px 0px #818CF8;
+    box-shadow: -10px -8px 0px #5feb9e;
 }
 .skillImage2{
     width: 200px; /* width of container */
@@ -27,10 +27,10 @@
     padding-bottom:50px;
     height:auto;
     margin: auto;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px #FDE68A;
 }
 .skillBox:hover{
-    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #00526c;
+    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #F59E0B;
 }
 .skillImageBox{
     min-height: 100px;
@@ -55,10 +55,10 @@
     padding-right:50px;
     height:auto;
     margin:auto;
-    box-shadow: 3px 3px 6px 0px #CCDBE8 inset, -3px -3px 6px 1px rgba(255,255,255,0.5) inset;
+    box-shadow: 3px 3px 6px 0px #CCDBE8 inset, -3px -3px 6px 1px #faa04b inset;
     background-color:white;
 
-  }
+}
 
 .innerSkillBox h3{
     font-size:30px;
@@ -71,7 +71,7 @@
     list-style: none; 
     padding: 0;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
-  }
+}
   
 .innerSkillBox ol li strong{
     position: relative;
@@ -100,7 +100,14 @@
     text-align: center;
     font-weight: bold;
   }
-  
+
+  a {
+    color:#83111e;
+  }
+  a:hover{
+    color:#e8faff;
+    transition: color .5s;
+  }
 .innerSkillBox ol li strong:after {
     position: absolute;
     content: "";

@@ -1,3 +1,11 @@
+.workImage{
+    width:445px;
+    height:300px;
+}
+.workImage2{
+    width:500px;
+    height:350px;
+}
 .workBackground{
     background-color:#b9efff;
 }
@@ -10,8 +18,140 @@
     padding-bottom:50px;
     height:auto;
     margin: auto;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px #DDD6FE;
 }
 .workBox:hover{
-    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #00526c;
+    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #5B21B6;
 }
+
+.innerWorkBox {
+    min-height: 100px;
+    overflow: hidden;
+    border: 1px solid #141d61;
+    padding-left: 50px;
+    padding-right:50px;
+    height:auto;
+    margin:auto;
+    box-shadow: 3px 3px 6px 0px #CCDBE8 inset, -3px -3px 6px 1px #5468ff inset;
+    background-color:white;
+
+}
+
+.workBox h1 {
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif;
+    color:#009bcb;
+}
+
+.innerWorkBox ol {
+    counter-reset: li; 
+    list-style: none; 
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+  
+.innerWorkBox ol li strong{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #e8faff;
+    color: #00526c;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+  
+.innerWorkBox ol li strong:hover {background: #009bcb;color:#e8faff;}       
+.innerWorkBox ol li strong:before {
+    content: counter(li);
+    counter-increment: li;
+    color:#00526c;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #b9efff;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.innerWorkBox ol li strong:after {
+    position: absolute;
+    content: "";
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+  
+.innerWorkBox ol li strong:hover:after {
+    left: -.5em;
+    border-left-color: #009bcb;
+}
+
+.innerWorkBox p{
+    font-size:25px;
+    font-family:Garamond,serif;
+    color:#00769b;
+}
+
+.innerWorkBox strong{
+    font-size:25px;
+    font-family:Garamond,serif;
+}
+
+/*list within list*/
+.innerWorkBox ol ul{
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+  
+.innerWorkBox ol ul li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #F5F3FF;
+    color: black;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+  
+.innerWorkBox ol ul li:hover {
+    background: #6366F1;
+    color:#e8faff;
+}       
+.innerWorkBox ol ul li:before {
+    content:'\2662';
+    color:white;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #A5B4FC;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.innerWorkBox ol ul li:after {
+    position: absolute;
+    content: "";
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+  
+.innerWorkBox ol ul li:hover:after {
+    left: -.5em;
+    border-left-color: #4338CA;
+}
+

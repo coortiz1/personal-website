@@ -83,28 +83,50 @@ function Skills() {
             <div className = "skillBackground">
                 <br></br>
                 <div className = "skillBox">
-                    <h1>Experienced Topics</h1>
-                    <div className = "innerSkillBox">
-                        <ol>
-                            <li><strong>a</strong></li>
-                            <li><strong>b</strong></li>
-                            <li><strong>c</strong></li>
-                        </ol>
-                    </div>
-                </div>
-                <br></br>
-                <br></br>
-                <div className = "skillBox">
                     
                     <h1>Credentials</h1>
+                    <div className = "skillImageBox">
+                        <img className = "skillImage1" src = "test.jpg"/>
+                    </div>
+                        
                     <div className = "innerSkillBox">
                         <ol>
-                            <li><strong>Gabrielino 2021 Valedictorian</strong></li>
+                            <li><strong><a href ="https://thetongvatimes.wordpress.com/2021/05/28/valedictorian-salutatorian-candidates-lead-class-of-2021/" target = "_blank">Gabrielino 2021 Valedictorian</a></strong></li>
                             <li><strong>SAT 1600 20/24 Essay (August 2019)</strong></li>
                             <li><strong>ACT 35 10/12 Essay (December 2018)</strong></li>                        
                         </ol>
                     </div>
                 </div>
+
+                <br></br>
+                <br></br>
+                <div className = "skillBox">
+                    <h1>Experienced Topics</h1>
+                    <div className = "innerSkillBox">
+                        <ol>
+                            <li>
+                                <strong>SAT Topics</strong>
+                                <p>My expertise covers all 5 sections of the SAT: Reading, Language, Math (no calculator), Math (with calculator), and the Essay.</p>
+                            </li>
+                            <li>
+                                <strong>ACT Topics</strong>
+                                <p>My knowledge includes all 5 sections of the ACT: English, Math, Reading, Science, and the Essay.</p>
+                            </li>
+
+                            <li>
+                                <strong>Math (ex: AP Calculus AB and AP Calculus BC)</strong>
+                                <p>I continue to tutor UCLA students in math. I got a 5 on both AB and BC. As proof of my mathematical ability, at UCLA, I got an A+ for Linear Algebra, A for Discrete Structures, and A+ for Differential Equations.</p>
+                            </li>
+                            <li>
+                                <strong>
+                                    Physics (ex: AP Physics 1, AP P. C Mech, AP P. C Electricity & Magnetism)
+                                </strong>
+                                <p>I continue to tutor UCLA students in physics. I got a 5 on AP Physics 1, AP Physics C Mech, and AP Physics C E&M. As proof of my physics knowledge, at UCLA, I got an A for Physics Oscillations, Waves, and Fields and an A for Physics Electrodynamic and Optics.</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
                 <br></br>
                 <br></br>
                 <div className = "skillBox">

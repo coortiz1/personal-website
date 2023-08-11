@@ -12,7 +12,7 @@ import "./index.css";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename = "/personal-website">
       <Routes>
         <Route path = "/" element = {<Layout />}>
           <Route index element = {<Home />}/>

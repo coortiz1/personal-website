@@ -1,7 +1,8 @@
 .contactBackground{
-    background-color:#b9efff;
+    background-color:white;
 }
 .contactBox{
+    border-radius: 25px;
     background-color:#e8faff;
     width: 1000px;
     border: 1px solid #141d61;
@@ -15,3 +16,115 @@
 .contactBox:hover{
     box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #00526c;
 }
+
+.contactBox h1 {
+    font-size:35px;
+    font-family:'Times New Roman', Times, serif;
+    color:#009bcb;
+}
+
+.innerContactBox {
+    border-radius: 25px;
+    min-height: 100px;
+    overflow: hidden;
+    border: 1px solid #141d61;
+    padding-left: 50px;
+    padding-right:50px;
+    height:auto;
+    margin:auto;
+    box-shadow: 3px 3px 6px 0px #CCDBE8 inset, -3px -3px 6px 1px #8B5CF6 inset;
+    background-color:white;
+
+}
+
+.innerContactBox h1 {
+    font-size:35px;
+    font-family:'Times New Roman', Times, serif;
+    color:#00769b;
+}
+
+.innerWorkBox ol ul{
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+  
+.innerContactBox ul li{
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #F5F3FF;
+    color: black;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+  
+.innerContactBox ul li:hover {
+    background: #6366F1;
+    color:#e8faff;
+}       
+.innerContactBox ul li:before {
+    content:'\2662';
+    color:white;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #A5B4FC;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.innerContactBox ul li:after {
+    position: absolute;
+    content: "";
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+}
+  
+.innerContactBox ul li:hover:after {
+    left: -.5em;
+    border-left-color: #4338CA;
+}
+
+.innerContactBox p{
+    font-size:25px;
+    font-family:Garamond,serif;
+    color:#00769b;
+}
+
+
+.linkBox{
+    display: inline-block;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #3c4fe0;
+    background: #fff;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: #a3acff -2px -2px 0px 2px, #1D4ED8 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+
+}
+
+.linkBox:hover{
+    box-shadow: #1D4ED8 -2px -2px 0px 2px, #a3acff 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transform: scale(1.01);
+}
+
+

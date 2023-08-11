@@ -27,12 +27,12 @@
     color:#e8faff;
     font-family: "Georgia", sans-serif;
     font-size:30px;
+    padding:10px;
   
 }
   
 .navbar li a:hover {
-    color: #009bcb;
-    font-weight: bold;
-    background-color: #e8faff;
+    color: #e8faff;
+    background-color: #0db7eb;
 }
   

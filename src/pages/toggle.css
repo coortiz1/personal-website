@@ -1,0 +1,102 @@
+.container p{
+  font-size:20px;
+  padding-left:10px;
+  padding-right:20px;
+  font-weight:bold;
+  color:#00769b;
+  white-space: pre-line
+}
+
+.container {
+    border-radius:0px 25px 0px 0px;
+    width:280px;
+    display:flex;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    text-align: center;
+    background-color:#e8faff;
+  }
+
+  
+  .toggle-switch {
+    position: absolute;
+    left:130px;
+    width: 150px; /* Doubled the width */
+    display: inline-block;
+    text-align: left;
+    top: 16px; /* Adjusted top position */
+  }
+  
+  .checkbox {
+    display: none;
+  }
+  
+  .label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0 solid #bbb;
+    border-radius: 40px; /* Doubled the border-radius */
+    font-size: 100px;
+  }
+  
+  .inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+  }
+  
+  .inner:before,
+  .inner:after {
+    float: left;
+    width: 50%;
+    height: 72px; /* Doubled the height */
+    padding: 0;
+    line-height: 72px; /* Doubled the line-height */
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size:40px;
+  }
+  
+  .inner:before {
+    content: "📚";
+    padding-left: 20px; /* Adjusted padding */
+    background-color: #b9efff;
+    color: #fff;
+  }
+  
+  .inner:after {
+    content: "🖥️";
+    padding-right: 20px; /* Adjusted padding */
+    background-color: #5468ff;
+    color: #fff;
+    text-align: right;
+  }
+  
+  .switch {
+    display: block;
+    width: 48px; /* Doubled the width */
+    height: 48px; /* Added height property */
+    margin: 10px; /* Adjusted margin */
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 80px; /* Adjusted right position */
+    border: 0 solid #bbb;
+    border-radius: 40px; /* Doubled the border-radius */
+    transition: all 0.3s ease-in 0s;
+  }
+  
+  .checkbox:checked + .label .inner {
+    margin-left: 0;
+  }
+  
+  .checkbox:checked + .label .switch {
+    right: 0px;
+  }
+  

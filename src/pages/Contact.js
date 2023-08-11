@@ -6,13 +6,15 @@ function Contact(){
     function BasicInfo(){
         return(
             <>
-                <h3>UCLA 25' Computer Science Major</h3>
+                <h1>UCLA 25' Computer Science Major</h1>
                 <p>Open for opportunities!</p>
                 <ul>
                     <li>Email: curtischen1234@gmail.com</li>
                     <li>Phone Number: 1-626-321-0852</li>
                 </ul>
-                <a target = "_blank" href = "https://www.linkedin.com/in/curtis-chen1/">Linkedin</a>
+                <a href="https://www.linkedin.com/in/curtis-chen1/" target="_blank">
+                    <input type="button" value="Linkedin" class = "linkBox"/>
+                </a>
             </>
         );
     }
@@ -22,8 +24,12 @@ function Contact(){
                 <br></br>
                 <div className = "contactBox">
                     <h1>Reach out to me for project ideas or if you just want to chat!</h1>
-                    <BasicInfo />
-                    <br></br>
+
+                    <div className = "innerContactBox" >
+                        <BasicInfo />
+                        <br></br>
+                        <br></br>                    
+                    </div>
                 </div>
                 <br></br>
                 <br></br>
@@ -36,19 +42,12 @@ function Contact(){
                 <br></br>
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+
+
+
+
+
+        
 
             </div>
         );
@@ -58,8 +57,13 @@ function Contact(){
             <div className = "contactBackground">
                 <br></br>
                 <div className = "contactBox">
-                    <h1>Reach out to me for private tutoring!</h1>                
-                    <BasicInfo />
+                    <h1>Reach out to me for private tutoring!</h1> 
+
+                    <div className = "innerContactBox">
+                        <BasicInfo />
+                        <br></br>
+                        <br></br>
+                    </div>
                 </div>
                 <br></br>
                 <br></br>

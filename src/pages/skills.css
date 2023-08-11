@@ -1,5 +1,5 @@
 .skillBackground{
-    background-color:#b9efff;
+    background-color:white;
 }
 
 .skillImage1{
@@ -19,6 +19,7 @@
     box-shadow: -10px -8px 0px #818CF8;
 }
 .skillBox{
+    border-radius: 25px;
     background-color:#e8faff;
     width: 1000px;
     border: 1px solid #141d61;
@@ -48,6 +49,7 @@
   }
 
 .innerSkillBox {
+    border-radius: 25px;
     min-height: 100px;
     overflow: hidden;
     border: 1px solid #141d61;
@@ -74,6 +76,7 @@
 }
   
 .innerSkillBox ol li strong{
+    border-radius: 10px;
     position: relative;
     display: block;
     padding: .4em .4em .4em .8em;
@@ -99,6 +102,7 @@
     line-height: 2em;
     text-align: center;
     font-weight: bold;
+    border-radius: 10px;
   }
 
   a {

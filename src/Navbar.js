@@ -4,7 +4,9 @@ import "./navbar.css";
 export const UserContext = React.createContext();
 function Navbar() {
     
+    
     return (
+
         <nav className = "navbar">
             <ul>
                 <li>
@@ -20,7 +22,7 @@ function Navbar() {
                     <Link to = "/contact-info">Contact Info</Link>
                 </li>
             </ul>
-        </nav>        
+        </nav> 
     )
 
 

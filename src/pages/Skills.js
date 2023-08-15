@@ -11,13 +11,13 @@ function Skills() {
                 <div className = "skillBox">
                     <h1>My Skills</h1>
                     <div className = "skillImageBox">
-                        <img className = "skillImage1" src = "./code.jpg"/>
+                        <img className = "skillImage1" src = "https://i.imgur.com/kMGmI0P.jpg"/>
                         <br></br>
                         <br></br>
-                        <img className = "skillImage1" src = "./coding2.jpg"/>
+                        <img className = "skillImage1" src = "https://i.imgur.com/DWfkHse.jpg"/>
                         <br></br>
                         <br></br>
-                        <img className = "skillImage1" src = "./coding3.jpg"/>
+                        <img className = "skillImage1" src = "https://i.imgur.com/JdeLJ8Q.jpg"/>
                     </div>
                     <div className = "innerSkillBox">
                         <h3>Coding Skills</h3>
@@ -36,10 +36,10 @@ function Skills() {
                     </div>
                     <br></br>
                     <div className = "skillImageBox">
-                        <img className = "skillImage2" src = "./speaking.jpg"/>
+                        <img className = "skillImage2" src = "https://i.imgur.com/5JZEqp2.jpg"/>
                         <br></br>
                         <br></br>
-                        <img className = "skillImage2" src = "./speaking2.jpg"/>
+                        <img className = "skillImage2" src = "https://i.imgur.com/dTCCPnw.jpg"/>
                     </div>
                     <div className = "innerSkillBox">
                         <h3>Language Skills</h3>
@@ -86,7 +86,7 @@ function Skills() {
                     
                     <h1>Credentials</h1>
                     <div className = "skillImageBox">
-                        <img className = "skillImage1" src = "./test.jpg"/>
+                        <img className = "skillImage1" src = "https://i.imgur.com/gljI9F8.jpg"/>
                     </div>
                         
                     <div className = "innerSkillBox">

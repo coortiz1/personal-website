@@ -1,7 +1,6 @@
 .navbar {
-    min-width:1200px;   /*minimum width for non-ie browsers, ignored by ie*/
+    min-width:1000px;   /*minimum width for non-ie browsers, ignored by ie*/
     width: 100% !important; /*width will autoexpand as necassary in non-ie browsers*/
-    width: 1000px;
     display:flex;
     justify-content:center;
     background-color: #009bcb;
@@ -9,6 +8,10 @@
     top:0;
     z-index: 100;
 
+    padding-left: 50px;
+    padding-right:50px;
+    height:auto;
+    margin: auto;
 }
   
 .navbar ul {

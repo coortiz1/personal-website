@@ -7,7 +7,7 @@ function Home() {
                 <br></br>
                 <div className = "homeBox">
                     <h1>Hi, I'm Curtis!</h1>
-                    <img className = "homeImage" src = "./pic2.jpg"/>
+                    <img className = "homeImage" src = "https://i.imgur.com/7sWsRN4.jpg"/>
                     <div className = "innerHomeBox"> 
                         <p>
                         I am a problem solver with a passion for computer science. 

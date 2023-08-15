@@ -1,8 +1,10 @@
 .navbar {
-    display: flex;
-    justify-content: center;
+    min-width:1200px;   /*minimum width for non-ie browsers, ignored by ie*/
+    width: 100% !important; /*width will autoexpand as necassary in non-ie browsers*/
+    width: 1000px;
+    display:flex;
+    justify-content:center;
     background-color: #009bcb;
-    padding: 10px;
     position:sticky;
     top:0;
     z-index: 100;

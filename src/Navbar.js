@@ -7,22 +7,24 @@ function Navbar() {
     
     return (
 
-        <nav className = "navbar">
-            <ul>
-                <li>
-                    <Link to = "/">Home</Link>
-                </li>
-                <li>
-                    <Link to = "/skills">Skills</Link>
-                </li>
-                <li>
-                    <Link to = "/experience">Experience</Link>
-                </li>
-                <li>
-                    <Link to = "/contact-info">Contact Info</Link>
-                </li>
-            </ul>
-        </nav> 
+        <div className = "navbar">
+            <nav>
+                <ul>
+                    <li>
+                        <Link to = "/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to = "/skills">Skills</Link>
+                    </li>
+                    <li>
+                        <Link to = "/experience">Experience</Link>
+                    </li>
+                    <li>
+                        <Link to = "/contact-info">Contact Info</Link>
+                    </li>
+                </ul>
+            </nav> 
+        </div>
     )
 
 

@@ -36,10 +36,10 @@ function Skills() {
                     </div>
                     <br></br>
                     <div className = "skillImageBox">
-                        <img className = "skillImage2" src = "speaking.jpg"/>
+                        <img className = "skillImage2" src = "./speaking.jpg"/>
                         <br></br>
                         <br></br>
-                        <img className = "skillImage2" src = "speaking2.jpg"/>
+                        <img className = "skillImage2" src = "./speaking2.jpg"/>
                     </div>
                     <div className = "innerSkillBox">
                         <h3>Language Skills</h3>
@@ -86,7 +86,7 @@ function Skills() {
                     
                     <h1>Credentials</h1>
                     <div className = "skillImageBox">
-                        <img className = "skillImage1" src = "test.jpg"/>
+                        <img className = "skillImage1" src = "./test.jpg"/>
                     </div>
                         
                     <div className = "innerSkillBox">

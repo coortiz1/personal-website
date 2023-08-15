@@ -18,8 +18,8 @@ function Work() {
                                 <p>ADAPT (Aiding Dietician and Personal Trainer)</p>
                                 
                                 <div className = "workImageBox1">
-                                    <img src = "trainer.jpg" className = "workImage"/>    
-                                    <img src = "food.jpg" className = "workImage"/>
+                                    <img src = "./trainer.jpg" className = "workImage"/>    
+                                    <img src = "./food.jpg" className = "workImage"/>
                                 </div>                        
                                 <ul type = "a" >
                                     <li>personal health web app that allows users to select customized workout plans and food recipes</li>
@@ -33,8 +33,8 @@ function Work() {
                                 <strong>Battleship Project</strong>
                                 <p>Made with C++</p>
                                 <div className = "workImageBox1">
-                                    <img src = "battleship.png" className = "workImage"/>
-                                    <img src = "battleshipCode.png" className = "workImage"/>
+                                    <img src = "./battleship.png" className = "workImage"/>
+                                    <img src = "./battleshipCode.png" className = "workImage"/>
                                 </div>
                                 <ul>
                                     <li>Focuses on the usage of various data structures (linked lists, 2d arrays, stacks, classes, etc.) with the implementation of several programming techniques (recursion, etc.) to create a fully functional battleship game</li>
@@ -111,8 +111,8 @@ function Work() {
                 <div className = "workBox">
                     <h1>Teaching Experience</h1>
                     <div className = "workImageBox2">
-                        <img src = "teaching1.webp" className = "workImage2"/>
-                        <img src = "teaching2.webp" className = "workImage2"/>
+                        <img src = "./teaching1.webp" className = "workImage2"/>
+                        <img src = "./teaching2.webp" className = "workImage2"/>
                     </div>
                     <br></br>
                     <br></br>

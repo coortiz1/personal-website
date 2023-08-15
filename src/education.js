@@ -3,7 +3,7 @@ export default function Education(){
     return (
         <div className = "educationBox">
             <h1>Education</h1>
-            <img className = "educationImage" src = "/ucla.jpg"/>
+            <img className = "educationImage" src = "https://i.imgur.com/vvZF9zG.jpg"/>
             <div className = "innerEducationBox">
                 <h2>UCLA</h2>
                 <h3>B.S. in Computer Science </h3>

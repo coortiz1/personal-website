@@ -41,31 +41,26 @@
   filter: contrast(140%);
 }
 .educationBox h1 {
-  font-size:50px;
+  font-size:calc(25px + 1.5vw);
   font-family:'Times New Roman', Times, serif;
   color:#009bcb;
 }
 
 .educationBox h2 {
-  font-size:40px;
+  font-size:calc(22px + 1.2vw);
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:#00769b;
 
 }
 
 .educationBox h3 {
-  font-size:30px;
+  font-size:calc(21px + 1vw);
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:#009bcb;
 }
 .innerEducationBox h4 {
-  font-size:25px;
+  font-size:calc(20px + 0.9vw);
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:#0db7eb;
 }
 
-.innerEducationBox p {
-  font-size:25px;
-  font-family:Garamond,serif;
-  color:#00769b;
-}

@@ -43,7 +43,7 @@
 }
 
 .skillBox h1 {
-    font-size:50px;
+    font-size:3vw;
     font-family:'Times New Roman', Times, serif;
     color:#009bcb;
   }
@@ -63,7 +63,7 @@
 }
 
 .innerSkillBox h3{
-    font-size:30px;
+    font-size:2vw;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:#009bcb;
 }
@@ -85,6 +85,7 @@
     color: #00526c;
     text-decoration: none;
     transition: all .3s ease-out;
+    font-size:1.7vw;
   }
   
 .innerSkillBox ol li strong:hover {background: #009bcb;color:#e8faff;}       
@@ -128,12 +129,12 @@
   }
 
 .innerSkillBox p{
-    font-size:25px;
+    font-size:1.4vw;
     font-family:Garamond,serif;
     color:#00769b;
 }
 
 .innerSkillBox strong{
-    font-size:25px;
+    font-size:1.5vw;
     font-family:Garamond,serif;
 }

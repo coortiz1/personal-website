@@ -52,7 +52,7 @@
 }
 
 .workBox h1 {
-    font-size:50px;
+    font-size:3vw;
     font-family:'Times New Roman', Times, serif;
     color:#009bcb;
 }
@@ -110,13 +110,13 @@
 }
 
 .innerWorkBox p{
-    font-size:25px;
+    font-size:1.8vw;
     font-family:Garamond,serif;
     color:#00769b;
 }
 
 .innerWorkBox strong{
-    font-size:25px;
+    font-size:2vw;
     font-family:Garamond,serif;
 }
 
@@ -136,6 +136,7 @@
     color: black;
     text-decoration: none;
     transition: all .3s ease-out;
+    font-size:1.1vw;
 }
   
 .innerWorkBox ol ul li:hover {

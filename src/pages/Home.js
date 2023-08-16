@@ -22,7 +22,6 @@ function Home() {
                             looking for internship opportunities. Aside from looking for internships, I am also a private tutor. 
                             </p>
                         </div>
-                        <br></br>
                     </div>
 
 

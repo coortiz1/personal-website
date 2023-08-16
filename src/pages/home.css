@@ -1,17 +1,11 @@
 .homeBackground {
   background-color:white;
 
-.basicBox{
-  width:auto;
-  height:auto;
-}
-
 }
 .homeBox {
-    width: 100%;
+    width: max(1000px,55%);
     border-radius: 25px;
     background-color:#e8faff;
-    width: 1000px;
     border: 1px solid #141d61;
     padding-left: 50px;
     padding-right:50px;
@@ -40,7 +34,7 @@
 }
 
 .homeImage {
-  width: 23%; /* width of container */
+  width: 27%; /* width of container */
   aspect-ratio:1/1;
   margin-bottom:20px;
   object-fit: cover;
@@ -59,7 +53,7 @@
 }
 
 .innerHomeBox p {
-  font-size:calc(16px + 0.5vw);
+  font-size:calc(20px + 0.5vw);
   font-family:Garamond,serif;
   color:#00769b;
 }

@@ -10,7 +10,6 @@ export default function Education(){
                 <h4>September 2021 - June 2025</h4>
                 <h4>GPA: 3.917</h4>
             </div>
-            <br></br>
         </div> 
     );
 }

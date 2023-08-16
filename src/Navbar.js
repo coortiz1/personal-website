@@ -7,8 +7,8 @@ function Navbar() {
     
     return (
 
-        <div className = "navbar">
-            <nav>
+        <nav className = "navBox">
+            <div className = "navbar">
                 <ul>
                     <li>
                         <Link to = "/">Home</Link>
@@ -23,8 +23,8 @@ function Navbar() {
                         <Link to = "/contact-info">Contact Info</Link>
                     </li>
                 </ul>
-            </nav> 
-        </div>
+            </div>
+        </nav> 
     )
 
 

@@ -3,10 +3,9 @@
 
 }
 .homeBox {
-    width: 100%;
+    width: max(1000px,55%);
     border-radius: 25px;
     background-color:#e8faff;
-    width: 1000px;
     border: 1px solid #141d61;
     padding-left: 50px;
     padding-right:50px;
@@ -35,8 +34,9 @@
 }
 
 .homeImage {
-  width: 300px; /* width of container */
-  height: 300px; /* height of container */
+  width: 27%; /* width of container */
+  aspect-ratio:1/1;
+  margin-bottom:20px;
   object-fit: cover;
   border: 1px solid solid black;
   margin-right:50px;
@@ -47,32 +47,13 @@
 }
 
 .homeBox h1 {
-  font-size:50px;
+  font-size:calc(25px + 1.5vw);
   font-family:'Times New Roman', Times, serif;
   color:#009bcb;
 }
 
-.homeBox h2 {
-  font-size:40px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  color:#00769b;
-
-}
-
-.homeBox h3 {
-  font-size:30px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  color:#009bcb;
-}
-
-.innerHomeBox h4 {
-  font-size:25px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  color:#0db7eb;
-}
-
 .innerHomeBox p {
-  font-size:25px;
+  font-size:calc(20px + 0.5vw);
   font-family:Garamond,serif;
   color:#00769b;
 }

@@ -3,16 +3,16 @@
 }
 
 .skillImage1{
-    width: 200px; /* width of container */
-    height: 200px; /* height of container */
+  width: 100%; /* width of container */
+  aspect-ratio:1/1; /* height of container */
     object-fit: cover;
     border: 1px solid solid black;
     margin-right:50px;
     box-shadow: -10px -8px 0px #5feb9e;
 }
 .skillImage2{
-    width: 200px; /* width of container */
-    height: 200px; /* height of container */
+  width: 100%; /* width of container */
+  aspect-ratio:1/1; /* height of container */
     object-fit: cover;
     border: 1px solid solid black;
     margin-right:50px;
@@ -21,7 +21,7 @@
 .skillBox{
     border-radius: 25px;
     background-color:#e8faff;
-    width: 1000px;
+    width: max(1000px,55%);
     border: 1px solid #141d61;
     padding-left: 50px;
     padding-right:50px;
@@ -34,16 +34,19 @@
     box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #F59E0B;
 }
 .skillImageBox{
+    width:max(15px,15%);
     min-height: 100px;
     overflow: hidden;
     height:auto;
     margin:auto;
     float:left;
-    padding:10px;
+    padding-right:4%;
+    padding-top:3%;
+
 }
 
 .skillBox h1 {
-    font-size:50px;
+    font-size:calc(25px + 2vw);
     font-family:'Times New Roman', Times, serif;
     color:#009bcb;
   }
@@ -63,7 +66,7 @@
 }
 
 .innerSkillBox h3{
-    font-size:30px;
+    font-size:calc(19px + 1.3vw);
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:#009bcb;
 }
@@ -85,6 +88,7 @@
     color: #00526c;
     text-decoration: none;
     transition: all .3s ease-out;
+    font-size:calc(18px + 0.5vw);
   }
   
 .innerSkillBox ol li strong:hover {background: #009bcb;color:#e8faff;}       
@@ -128,12 +132,8 @@
   }
 
 .innerSkillBox p{
-    font-size:25px;
+    font-size:calc(17px + 0.5vw);
     font-family:Garamond,serif;
     color:#00769b;
 }
 
-.innerSkillBox strong{
-    font-size:25px;
-    font-family:Garamond,serif;
-}

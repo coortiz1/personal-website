@@ -57,7 +57,7 @@ function Work() {
                         <ol>
                             <li>
                                 <strong>Monterey Park Hospital - Purchasing Department Assistant</strong>
-                                <p>July 2015 - July 2017</p>
+                                <p>July 2019 - July 2021</p>
                                 <ul>
                                     <li>Communicated with doctors and staff about inventory related questions</li>
                                     <li>Translated for Cantonese speakers</li>
@@ -68,7 +68,7 @@ function Work() {
                             <br></br>
                             <li>
                                 <strong>Escalante Math Program - Teacher Assistant</strong>
-                                <p>July 2015 - September 2015</p>
+                                <p>July 2019 - July 2021</p>
                                 <ul>
                                     <li>Coached 3 struggling students in precalculus and raised their test scores from C minus to A minus</li>
                                     <li>Instructed precalculus classes (average 22 students per class) as substitute for teacher</li>
@@ -120,7 +120,7 @@ function Work() {
                         <ol>
                             <li>
                                 <strong>Escalante Math Program - Teacher Assistant</strong>
-                                <p>July 2015 - September 2015</p>
+                                <p>July 2019 - September 2021</p>
                                 <ul>
                                     <li>Coached 3 struggling students in precalculus and raised their test scores from C minus to A minus</li>
                                     <li>Instructed precalculus classes (average 22 students per class) as substitute for teacher</li>
@@ -129,7 +129,7 @@ function Work() {
                             <br></br>
                             <li>
                                 <strong>UCLA Upsilon Pi Epsilon - Tutor</strong>
-                                <p>September 2022 - June 2022</p>
+                                <p>September 2022 - Current</p>
                                 <ul>
                                     <li>Coach UCLA students in data structures and algorithms, differential equations, and physics</li>
                                     <li>Helped students go through their homework in various subjects</li>

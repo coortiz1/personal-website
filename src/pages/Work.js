@@ -14,7 +14,7 @@ function Work() {
                     <div className = "innerWorkBox">                   
                         <ol>
                             <li>
-                                <strong>Personal Fitness Web App</strong>
+                                <strong><a target = "_blank" href = "https://curtischen03.github.io/ADAPT/">Personal Fitness Web App</a></strong>
                                 <p>ADAPT (Aiding Dietician and Personal Trainer)</p>
                                 
                                 <div className = "workImageBox1">
@@ -120,7 +120,7 @@ function Work() {
                         <ol>
                             <li>
                                 <strong>Escalante Math Program - Teacher Assistant</strong>
-                                <p>July 2019 - September 2021</p>
+                                <p>July 2019 - July 2021</p>
                                 <ul>
                                     <li>Coached 3 struggling students in precalculus and raised their test scores from C minus to A minus</li>
                                     <li>Instructed precalculus classes (average 22 students per class) as substitute for teacher</li>

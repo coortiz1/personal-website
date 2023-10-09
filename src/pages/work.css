@@ -63,7 +63,7 @@
     counter-reset: li; 
     list-style: none; 
     padding: 0;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    text-shadow: 0 2px 0 rgba(255, 255, 255, 0.583);
 }
   
 .innerWorkBox ol li strong{
@@ -177,3 +177,18 @@
     border-left-color: #4338CA;
 }
 
+a:link {
+    color: #5adaff;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:visited {
+    color:#5adaff;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:hover {
+    color:#e8faff;
+    background-color: transparent;
+    text-decoration: underline;
+  }

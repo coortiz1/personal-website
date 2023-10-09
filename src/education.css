@@ -5,7 +5,7 @@
     border: 1px solid #141d61;
     padding-left: 50px;
     padding-right:50px;
-    padding-bottom:50px;
+    padding-bottom:30px;
     height:auto;
     margin: auto;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px #A7F3D0;
@@ -62,5 +62,28 @@
   font-size:calc(20px + 0.9vw);
   font-family:Georgia, 'Times New Roman', Times, serif;
   color:#0db7eb;
+}
+
+.linkBox{
+  display: inline-block;
+  outline: 0;
+  border:0;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: #3c4fe0;
+  background: #fff;
+  line-height: 30px;
+  border-radius: 40px;
+  font-size: calc(17px + 1.2vw);
+  font-weight: 600;
+  box-shadow: #a3acff -2px -2px 0px 2px, #1D4ED8 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  transition: all 0.2s;
+
+}
+
+.linkBox:hover{
+  box-shadow: #1D4ED8 -2px -2px 0px 2px, #a3acff 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  transform: scale(1.01);
 }
 

@@ -1,3 +1,4 @@
+import ExamplePdf from './Curtis_Chen.pdf';
 import React from "react";
 import {UserContext} from "../Navbar";
 import "./contact.css";
@@ -15,8 +16,16 @@ function Contact(){
                 <a href="https://www.linkedin.com/in/curtis-chen1/" target="_blank" class = "linkPadding">
                     <input type="button" value="Linkedin" class = "linkBox"/>
                 </a>
-                <a href="https://github.com/curtischen03" target="_blank">
+                <a href="https://github.com/curtischen03" target="_blank" class = "linkPadding">
                     <input type="button" value="Github" class = "linkBox"/>
+                </a>
+                <a
+                    href={ExamplePdf}
+                    download="Curtis_Chen_Resume"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <input type="button" value="Resume Download" class = "linkBox"/>
                 </a>
             </>
         );

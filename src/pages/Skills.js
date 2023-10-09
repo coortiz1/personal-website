@@ -30,7 +30,9 @@ function Skills() {
                             <li><strong>HTML</strong></li>
                             <li><strong>CSS</strong></li>
                             <li><strong>Reactjs</strong></li>
+                            <li><strong>Tensorflow</strong></li>
                             <li><strong>Firebase</strong></li>
+                            <li><strong>Linux</strong></li>
                             <li><strong>Shell Scripting</strong></li>
                         </ol>
                     </div>

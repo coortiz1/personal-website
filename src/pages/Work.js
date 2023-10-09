@@ -30,7 +30,23 @@ function Work() {
                             </li>
                             <br></br>
                             <li>
-                                <strong>Battleship Project</strong>
+                                <strong><a target = "_blank" href = "https://curtischen03.github.io/ADAPT/">ML Movie Review Sentiment</a></strong>
+                                <p>Made with Python and Tensorflow</p>
+                                
+                                <div className = "workImageBox1">
+                                    <img src = "https://i.imgur.com/SUTyBNl.png" className = "workImage"/>    
+                                    <img src = "https://i.imgur.com/6hOpIXr.jpg" className = "workImage"/>
+                                </div>                        
+                                <ul type = "a" >
+                                    <li>uses machine learning neural networks to determine the sentiment of a movie, which is either positive (1) or negative (0)</li>
+                                    <li>combines Keras dataset about Imdb movie reviews with Kaggle dataset about Rotten Tomatoes movie reviews</li>
+                                    <li>processed Kaggle dataset extensively with Pandas in order to use it with the Keras dataset </li>
+                                    <li>neural network had 2 hidden layers and reached an 82 percent accuracy rate in determining sentiment</li>
+                                </ul>
+                            </li>
+                            <br></br>
+                            <li>
+                            <strong><a target = "_blank" href = "https://github.com/curtischen03/battleship">Battleship Project</a></strong>
                                 <p>Made with C++</p>
                                 <div className = "workImageBox1">
                                     <img src = "https://i.imgur.com/2pTTLos.png" className = "workImage"/>

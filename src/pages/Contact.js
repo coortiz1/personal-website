@@ -12,8 +12,11 @@ function Contact(){
                     <li>Email: curtischen1234@gmail.com</li>
                     <li>Phone Number: 1-626-321-0852</li>
                 </ul>
-                <a href="https://www.linkedin.com/in/curtis-chen1/" target="_blank">
+                <a href="https://www.linkedin.com/in/curtis-chen1/" target="_blank" class = "linkPadding">
                     <input type="button" value="Linkedin" class = "linkBox"/>
+                </a>
+                <a href="https://github.com/curtischen03" target="_blank">
+                    <input type="button" value="Github" class = "linkBox"/>
                 </a>
             </>
         );

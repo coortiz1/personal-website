@@ -30,7 +30,7 @@ function Work() {
                             </li>
                             <br></br>
                             <li>
-                                <strong><a target = "_blank" href = "https://curtischen03.github.io/ADAPT/">ML Movie Review Sentiment</a></strong>
+                                <strong><a target = "_blank" href = "https://github.com/curtischen03/movie_review_sentiment">ML Movie Review Sentiment</a></strong>
                                 <p>Made with Python and Tensorflow</p>
                                 
                                 <div className = "workImageBox1">

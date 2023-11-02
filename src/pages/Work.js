@@ -46,6 +46,23 @@ function Work() {
                             </li>
                             <br></br>
                             <li>
+                                <strong><a target = "_blank" href = "https://github.com/curtischen03/comment-toxicity">ML Online Comment Toxicity</a></strong>
+                                <p>Made with Python and Tensorflow</p>
+                                
+                                <div className = "workImageBox1">
+                                    <img src = "https://i.imgur.com/RJ6m5St.jpg" className = "workImage"/>    
+                                    <img src = "https://i.imgur.com/xNYtGcV.png" className = "workImage"/>
+                                </div>                        
+                                <ul type = "a" >
+                                    <li>Uses neural networks to determine the toxicity of an online comment, which is put into these categories: toxic, severly toxic, 
+obscene, threat, insult, and identity hate, and a 1 indicates that it is part of that category</li>
+                                    <li>Processed Kaggle dataset with Pandas and used a vectorizer to convert the text into encodings of numbers  </li>
+                                    <li>Neural network had 4 hidden layers and reached an 71 percent accuracy rate in determining the categories of toxic and severely 
+toxic</li>
+                                </ul>
+                            </li>
+                            <br></br>
+                            <li>
                             <strong><a target = "_blank" href = "https://github.com/curtischen03/battleship">Battleship Project</a></strong>
                                 <p>Made with C++</p>
                                 <div className = "workImageBox1">

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.d28574e8.css",
-    "main.js": "/personal-website/static/js/main.d5de5d04.js",
+    "main.js": "/personal-website/static/js/main.f584e61f.js",
     "static/media/Curtis_Chen.pdf": "/personal-website/static/media/Curtis_Chen.7a551f2468695afb4a76.pdf",
     "index.html": "/personal-website/index.html",
     "main.d28574e8.css.map": "/personal-website/static/css/main.d28574e8.css.map",
-    "main.d5de5d04.js.map": "/personal-website/static/js/main.d5de5d04.js.map"
+    "main.f584e61f.js.map": "/personal-website/static/js/main.f584e61f.js.map"
   },
   "entrypoints": [
     "static/css/main.d28574e8.css",
-    "static/js/main.d5de5d04.js"
+    "static/js/main.f584e61f.js"
   ]
 }

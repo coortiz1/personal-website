@@ -5,30 +5,30 @@
 .homeBox {
     width: max(1000px,55%);
     border-radius: 25px;
-    background-color:#e8faff;
-    border: 1px solid #141d61;
+    background-color:#E0E0E0;
+    border: 1px solid #757575;
     padding-left: 50px;
     padding-right:50px;
     padding-bottom:50px;
     height:auto;
     margin: auto;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px #A7F3D0;
+    box-shadow: 0 19px 38px #757575    , 0 15px 12px #757575;
   }
 
 .homeBox:hover{
-  box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #028950;
+  box-shadow: 0 19px 38px #424242 , 0 15px 12px #424242;
 }
 
 .innerHomeBox {
   border-radius: 25px;
   min-height: 100px;
   overflow: hidden;
-  border: 1px solid #141d61;
+  border: 1px solid #757575;
   padding-left: 50px;
   padding-right:50px;
   height:auto;
   margin:auto;
-  box-shadow: 3px 3px 6px 0px #CCDBE8 inset, -3px -3px 6px 1px #EF4444 inset;
+  box-shadow: 3px 3px 6px 0px #BDBDBD  inset, -3px -3px 6px 1px #BDBDBD  inset;
   background-color:white;
 
 }
@@ -41,7 +41,7 @@
   border: 1px solid solid black;
   margin-right:50px;
   float:left;
-  box-shadow: -10px -8px 0px #FBBF24;
+  box-shadow: -10px -8px 0px #616161;
   filter: brightness(140%);
   filter: contrast(140%);
 }
@@ -49,11 +49,11 @@
 .homeBox h1 {
   font-size:calc(25px + 1.5vw);
   font-family:'Times New Roman', Times, serif;
-  color:#009bcb;
+  color:#000000;
 }
 
 .innerHomeBox p {
   font-size:calc(20px + 0.5vw);
   font-family:Garamond,serif;
-  color:#00769b;
+  color:#424242;
 }

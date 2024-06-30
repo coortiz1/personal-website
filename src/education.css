@@ -1,18 +1,18 @@
 .educationBox {
     border-radius: 25px;
-    background-color:#e8faff;
+    background-color:#E0E0E0;
     width: max(1000px,55%);
-    border: 1px solid #141d61;
+    border: 1px solid #757575;
     padding-left: 50px;
     padding-right:50px;
     padding-bottom:30px;
     height:auto;
     margin: auto;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px #A7F3D0;
+    box-shadow: 0 19px 38px #757575    , 0 15px 12px #757575;
   }
 
 .educationBox:hover{
-  box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #028950;
+  box-shadow: 0 19px 38px #424242 , 0 15px 12px #424242;
 }
 
 .innerEducationBox {
@@ -24,7 +24,7 @@
     padding-right:50px;
     height:auto;
     margin:auto;
-    box-shadow: 3px 3px 6px 0px #CCDBE8 inset, -3px -3px 6px 1px #EF4444 inset;
+    box-shadow: 3px 3px 6px 0px #BDBDBD  inset, -3px -3px 6px 1px #BDBDBD  inset;
     background-color:white;
 
   }
@@ -36,32 +36,31 @@
   border: 1px solid solid black;
   margin-right:50px;
   float:left;
-  box-shadow: -10px -8px 0px #FBBF24;
+  box-shadow: -10px -8px 0px #616161;
   filter: brightness(140%);
   filter: contrast(140%);
 }
 .educationBox h1 {
   font-size:calc(25px + 1.5vw);
   font-family:'Times New Roman', Times, serif;
-  color:#009bcb;
+  color:#000000;
 }
 
 .educationBox h2 {
   font-size:calc(22px + 1.2vw);
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color:#00769b;
-
+  color:#424242;
 }
 
 .educationBox h3 {
   font-size:calc(21px + 1vw);
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color:#009bcb;
+  color:#424242;
 }
 .innerEducationBox h4 {
   font-size:calc(20px + 0.9vw);
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color:#0db7eb;
+  color:#424242;
 }
 
 .linkBox{
@@ -71,19 +70,19 @@
   cursor: pointer;
   text-decoration: none;
   position: relative;
-  color: #3c4fe0;
+  color: #000000;
   background: #fff;
   line-height: 30px;
   border-radius: 40px;
+  padding: 20px;
   font-size: calc(17px + 1.2vw);
   font-weight: 600;
-  box-shadow: #a3acff -2px -2px 0px 2px, #1D4ED8 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  box-shadow: #9E9E9E  -2px -2px 0px 2px, #424242  0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
   transition: all 0.2s;
 
 }
 
 .linkBox:hover{
-  box-shadow: #1D4ED8 -2px -2px 0px 2px, #a3acff 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  box-shadow: #424242 -2px -2px 0px 2px, #9e9e9e 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
   transform: scale(1.01);
 }
-

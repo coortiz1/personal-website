@@ -1,6 +1,6 @@
 .navBox {
 
-    background-color:#009bcb
+    background-color:#424242;
   }
 .navbar {
    /*minimum width for non-ie browsers, ignored by ie*/
@@ -11,7 +11,7 @@
     box-sizing:border-box;
     display:flex;
     justify-content:center;
-    background-color: #009bcb;
+    background-color: #424242;
     position:sticky;
     top:0;
     z-index: 100;
@@ -29,7 +29,7 @@
   
 .navbar li {
     padding: 5px 10px;
-    background-color: #009bcb;    
+    background-color: #424242;    
 }
   
 .navbar li a {
@@ -42,6 +42,6 @@
   
 .navbar li a:hover {
     color: #e8faff;
-    background-color: #0db7eb;
+    background-color: #616161;
 }
   

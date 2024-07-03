@@ -84,14 +84,14 @@
     display: block;
     padding: .4em .4em .4em .8em;
     margin: .5em 0 .5em 2.5em;
-    background: #EEEEEE;
+    background: #F5F5F5    ;
     color: #424242;
     text-decoration: none;
     transition: all .3s ease-out;
     font-size:calc(18px + 0.5vw);
   }
   
-.innerSkillBox ol li strong:hover {background: #424242;color:#EEEEEE;}       
+.innerSkillBox ol li strong:hover {background: #BDBDBD  ;color:black  ;}       
 .innerSkillBox ol li strong:before {
     content: counter(li);
     counter-increment: li;
@@ -110,7 +110,7 @@
   }
 
   a {
-    color:#83111e;
+    color:#424242;
   }
   a:hover{
     color:#e8faff;
@@ -128,7 +128,7 @@
   
 .innerSkillBox ol li strong:hover:after {
     left: -.5em;
-    border-left-color: #009bcb;
+    border-left-color: #424242;
   }
 
 .innerSkillBox p{

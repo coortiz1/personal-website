@@ -3,7 +3,7 @@
   padding-left:10px;
   padding-right:20px;
   font-weight:bold;
-  color:#00769b;
+  color:black;
   white-space: pre-line
 }
 
@@ -16,7 +16,7 @@
     bottom: 0;
     z-index: 100;
     text-align: center;
-    background-color:#e8faff;
+    background-color:#EEEEEE    ;
   }
 
   
@@ -37,7 +37,7 @@
     display: block;
     overflow: hidden;
     cursor: pointer;
-    border: 0 solid #bbb;
+    border: 0 solid#757575    ;
     border-radius: 40px; /* Doubled the border-radius */
     font-size: 100px;
   }
@@ -65,14 +65,14 @@
   .inner:before {
     content: "📚";
     padding-left: 20px; /* Adjusted padding */
-    background-color: #b9efff;
+    background-color: #9E9E9E    ;
     color: #fff;
   }
   
   .inner:after {
     content: "🖥️";
     padding-right: 20px; /* Adjusted padding */
-    background-color: #5468ff;
+    background-color: #616161    ;
     color: #fff;
     text-align: right;
   }

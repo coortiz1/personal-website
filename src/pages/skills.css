@@ -8,30 +8,30 @@
     object-fit: cover;
     border: 1px solid solid black;
     margin-right:50px;
-    box-shadow: -10px -8px 0px #5feb9e;
-}
+    box-shadow: -10px -8px 0px #616161;
+  }
 .skillImage2{
   width: 100%; /* width of container */
   aspect-ratio:1/1; /* height of container */
     object-fit: cover;
     border: 1px solid solid black;
     margin-right:50px;
-    box-shadow: -10px -8px 0px #818CF8;
-}
+    box-shadow: -10px -8px 0px #616161;
+  }
 .skillBox{
-    border-radius: 25px;
-    background-color:#e8faff;
-    width: max(1000px,55%);
-    border: 1px solid #141d61;
-    padding-left: 50px;
-    padding-right:50px;
-    padding-bottom:50px;
-    height:auto;
-    margin: auto;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px #FDE68A;
+  width: max(1000px,55%);
+  border-radius: 25px;
+  background-color:#E0E0E0;
+  border: 1px solid #757575;
+  padding-left: 50px;
+  padding-right:50px;
+  padding-bottom:50px;
+  height:auto;
+  margin: auto;
+  box-shadow: 0 19px 38px #757575    , 0 15px 12px #757575;
 }
 .skillBox:hover{
-    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48) , -6px -2px 16px 0px #F59E0B;
+  box-shadow: 0 19px 38px #424242 , 0 15px 12px #424242;
 }
 .skillImageBox{
     width:max(15px,15%);
@@ -46,21 +46,21 @@
 }
 
 .skillBox h1 {
-    font-size:calc(25px + 2vw);
-    font-family:'Times New Roman', Times, serif;
-    color:#009bcb;
+  font-size:calc(25px + 2vw);
+  font-family:'Times New Roman', Times, serif;
+  color:#000000;
   }
 
 .innerSkillBox {
     border-radius: 25px;
     min-height: 100px;
     overflow: hidden;
-    border: 1px solid #141d61;
+    border: 1px solid #757575;
     padding-left: 50px;
     padding-right:50px;
     height:auto;
     margin:auto;
-    box-shadow: 3px 3px 6px 0px #CCDBE8 inset, -3px -3px 6px 1px #faa04b inset;
+    box-shadow: 3px 3px 6px 0px #BDBDBD  inset, -3px -3px 6px 1px #BDBDBD  inset;
     background-color:white;
 
 }
@@ -68,7 +68,7 @@
 .innerSkillBox h3{
     font-size:calc(19px + 1.3vw);
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:#009bcb;
+    color:#424242;
 }
 
 .innerSkillBox ol {
@@ -84,23 +84,23 @@
     display: block;
     padding: .4em .4em .4em .8em;
     margin: .5em 0 .5em 2.5em;
-    background: #e8faff;
-    color: #00526c;
+    background: #F5F5F5    ;
+    color: #424242;
     text-decoration: none;
     transition: all .3s ease-out;
     font-size:calc(18px + 0.5vw);
   }
   
-.innerSkillBox ol li strong:hover {background: #009bcb;color:#e8faff;}       
+.innerSkillBox ol li strong:hover {background: #BDBDBD  ;color:black  ;}       
 .innerSkillBox ol li strong:before {
     content: counter(li);
     counter-increment: li;
-    color:#00526c;
+    color:#424242;
     position: absolute;
     left: -2.5em;
     top: 50%;
     margin-top: -1em;
-    background: #b9efff;
+    background: #E0E0E0;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -110,7 +110,7 @@
   }
 
   a {
-    color:#83111e;
+    color:#424242;
   }
   a:hover{
     color:#e8faff;
@@ -128,12 +128,12 @@
   
 .innerSkillBox ol li strong:hover:after {
     left: -.5em;
-    border-left-color: #009bcb;
+    border-left-color: #424242;
   }
 
 .innerSkillBox p{
     font-size:calc(17px + 0.5vw);
     font-family:Garamond,serif;
-    color:#00769b;
+    color:#616161;
 }
 

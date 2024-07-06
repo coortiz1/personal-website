@@ -30,8 +30,12 @@ function Skills() {
                             <li><strong>HTML</strong></li>
                             <li><strong>CSS</strong></li>
                             <li><strong>Reactjs</strong></li>
-                            <li><strong>Tensorflow</strong></li>
+                            <li><strong>DJango</strong></li>
                             <li><strong>Firebase</strong></li>
+                            <li><strong>Tensorflow</strong></li>
+                            <li><strong>Pandas</strong></li>
+                            <li><strong>Numpy</strong></li>
+                            <li><strong>SKLearn</strong></li>
                             <li><strong>Linux</strong></li>
                             <li><strong>Shell Scripting</strong></li>
                         </ol>
@@ -68,8 +72,7 @@ function Skills() {
                     <h1>Currently Learning...</h1>
                     <div className = "innerSkillBox">
                         <ol>
-                            <li><strong>Machine Learning</strong></li>
-                            <li><strong>Computer Graphics</strong></li>
+                            <li><strong>Computer Vision</strong></li>
                         </ol>
                     </div>
                 </div>
@@ -95,7 +98,9 @@ function Skills() {
                         <ol>
                             <li><strong><a href ="https://thetongvatimes.wordpress.com/2021/05/28/valedictorian-salutatorian-candidates-lead-class-of-2021/" target = "_blank">Gabrielino 2021 Valedictorian</a></strong></li>
                             <li><strong>SAT 1600 20/24 Essay (August 2019)</strong></li>
-                            <li><strong>ACT 35 10/12 Essay (December 2018)</strong></li>                        
+                            <li><strong>ACT 35 10/12 Essay (December 2018)</strong></li>  
+                            <li><strong>SAT Subject Test Math Level 2 800 (June 2018)</strong></li>  
+
                         </ol>
                     </div>
                 </div>

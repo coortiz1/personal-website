@@ -88,6 +88,26 @@ toxic</li>
                     
                     <div className = "innerWorkBox">
                         <ol>
+                        <li>
+                                <strong>UCLA Upsilon Pi Epsilon - Tutoring Chair</strong>
+                                <p>September 2022 - Current</p>
+                                <ul>
+                                    <li>Facilitate review sessions and practice nights for core CS classes in a large scale setting</li>
+                                    <li>Coach UCLA students in fundamental CS concepts (data structures, algorithms, classes, etc.) for Upsilon Pi Epsilon, the
+                                    computer science honors society</li>
+                                    <li>Helped students go through their homework in various subjects</li>
+                                </ul>
+                            </li>
+                            <br></br>
+                            <li>
+                                <strong>Gabrielino Tutoring Association - Advisor</strong>
+                                <p>September 2020 - June 2021</p>
+                                <ul>
+                                    <li>Coached students one on one and raised two student's test scores from C minus to B</li>
+                                    <li>Gave younger students advice on what classes to choose for future and personalize teaching plans based on their interests</li>
+                                </ul>
+                            </li>
+                            <br></br>
                             <li>
                                 <strong>Monterey Park Hospital - Purchasing Department Assistant</strong>
                                 <p>July 2019 - July 2021</p>
@@ -108,24 +128,6 @@ toxic</li>
                                 </ul>
                             </li>
                             <br></br>
-                            <li>
-                                <strong>UCLA Upsilon Pi Epsilon - Tutor</strong>
-                                <p>September 2022 - Current</p>
-                                <ul>
-                                    <li>Coach UCLA students in data structures and algorithms, differential equations, and physics</li>
-                                    <li>Helped students go through their homework in various subjects</li>
-                                    <li>Helped students go through their past graded homework and tests and explain their mistakes</li>
-                                </ul>
-                            </li>
-                            <br></br>
-                            <li>
-                                <strong>Gabrielino Tutoring Association - Advisor</strong>
-                                <p>September 2020 - June 2021</p>
-                                <ul>
-                                    <li>Coached students one on one and raised two student's test scores from C minus to B</li>
-                                    <li>Gave younger students advice on what classes to choose for future and personalize teaching plans based on their interests</li>
-                                </ul>
-                            </li>
                             <br></br>
                         </ol>
                     </div>
@@ -151,16 +153,7 @@ toxic</li>
                     <br></br>
                     <div className = "innerWorkBox">
                         <ol>
-                            <li>
-                                <strong>Escalante Math Program - Teacher Assistant</strong>
-                                <p>July 2019 - July 2021</p>
-                                <ul>
-                                    <li>Coached 3 struggling students in precalculus and raised their test scores from C minus to A minus</li>
-                                    <li>Instructed precalculus classes (average 22 students per class) as substitute for teacher</li>
-                                </ul>
-                            </li>
-                            <br></br>
-                            <li>
+                        <li>
                                 <strong>UCLA Upsilon Pi Epsilon - Tutor</strong>
                                 <p>September 2022 - Current</p>
                                 <ul>
@@ -178,6 +171,16 @@ toxic</li>
                                     <li>Gave younger students advice on what classes to choose for future and personalize teaching plans based on their interests</li>
                                 </ul>
                             </li>
+                            <br></br>
+                            <li>
+                                <strong>Escalante Math Program - Teacher Assistant</strong>
+                                <p>July 2019 - July 2021</p>
+                                <ul>
+                                    <li>Coached 3 struggling students in precalculus and raised their test scores from C minus to A minus</li>
+                                    <li>Instructed precalculus classes (average 22 students per class) as substitute for teacher</li>
+                                </ul>
+                            </li>
+                            <br></br>
                             <br></br>
                         </ol>
                     </div>

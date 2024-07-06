@@ -12,14 +12,16 @@ function Home() {
                         <div className = "innerHomeBox"> 
                             <p>
                             I am a problem solver with a passion for computer science. 
-                            I am an upcoming junior majoring in computer science at UCLA. 
-                            I love keeping up to date on industry trends. In my free time,
-                            I enjoy playing basketball and drawing. 
+                            I am an upcoming senior majoring in computer science at UCLA. 
+                            I enjoy keeping up to date on industry trends. In my free time,
+                            I play basketball and draw. 
                             </p>
                             <p>
-                            My technical expertise includes proficiency in Python and C/C++. I also have experience 
-                            with web development technologies such as React.js, Firebase, HTML, and CSS. I am currently 
-                            looking for internship opportunities. Aside from looking for internships, I am also a private tutor. 
+                            My technical expertise includes front end and back end web development as well as machine learning. 
+                            In terms of web development, I am experienced with React.js, JS, HTML, CSS, Django, and Firebase. 
+                            For machine learning, I am experienced with tools such as Tensorflow, Numpy, Pandas, and SKLearn. 
+                            I am experienced with programming languages such as Python, C/C++, and Java.
+                            Aside from a CS student, I am also a private tutor. 
                             </p>
                         </div>
                     </div>
